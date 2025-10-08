@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Kasir — Leonardo Café</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body class="page-fade">
+
+  <header class="navbar">
+    <div class="brand">
+      <div class="logo-circle">☕</div>
+      <div>
+        <h1>Kasir — Leonardo Café</h1>
+        <div class="tag">Leonardo DiCaprio pernah pesan kopi di sini</div>
+      </div>
+    </div>
+    <div class="top-actions">
+      <a class="btn small" href="index.html">Lanjut Belanja</a>
+    </div>
+  </header>
+
+  <main class="cart-page">
+    <h2 style="text-align:center;margin-top:18px">Keranjang Pesanan</h2>
+    <div id="cartList" class="cart-list"></div>
+
+    <div class="checkout-panel">
+      <div>
+        <div style="color:#6b5b52">Total:</div>
+        <div id="checkoutTotal" class="checkout-total">Rp0</div>
+      </div>
+      <div class="checkout-actions">
+        <button id="clearCartBtn" class="btn ghost">Kosongkan</button>
+        <button id="checkoutBtn" class="btn primary">Konfirmasi & Cetak Struk</button>
+      </div>
+    </div>
+
+    <section id="txHistory" class="tx-history" style="margin-top:20px;padding:0 12px;">
+      <h3>Riwayat Transaksi</h3>
+      <div id="historyList"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <small>© 2025 Leonardo Café — V7</small>
+  </footer>
+
+</body>
+</html>

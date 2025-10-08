@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Leonardo Café — Menu</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body class="page-fade">
+
+  <header class="navbar">
+    <div class="brand">
+      <div class="logo-circle">☕</div>
+      <div>
+        <h1>Leonardo Café</h1>
+        <div class="tag">Leonardo DiCaprio pernah pesan kopi di sini</div>
+      </div>
+    </div>
+
+    <div class="top-actions">
+      <a class="btn small" href="kasir.html">Keranjang (<span id="cartCountTop">0</span>)</a>
+    </div>
+  </header>
+
+  <nav class="category-nav">
+    <button class="category-btn active" data-cat="all">Semua</button>
+    <button class="category-btn" data-cat="panas">Kopi Panas</button>
+    <button class="category-btn" data-cat="dingin">Kopi Dingin</button>
+    <button class="category-btn" data-cat="snack">Makanan Ringan</button>
+  </nav>
+
+  <main class="menu-wrapper">
+    <section id="menuGrid" class="menu-grid"></section>
+  </main>
+
+  <footer class="site-footer">
+    <small>© 2025 Leonardo Café — V7 • Dibuat oleh Rasya</small>
+  </footer>
+
+</body>
+</html>

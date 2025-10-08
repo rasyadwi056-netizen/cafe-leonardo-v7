@@ -12,7 +12,7 @@ const IMAGES = {
   affogato: "994f146b76824cf41059154547f706ec.jpg",
   croissant: "c883409163bb441326b46975b022497e.jpg",
   muffin: "67cf87b89fbc0550ce37c680a5bf1a85.jpg",
-  brownies: "1839651798c581c9219f3d7ccd62cbda.jpg",
+  brownies: "b1db98a8182316a568052e8cdb3e88d9.jpg",
   sandwich: "6a60622f784ac730ab7109f2ecd040cf.jpg"
 };
 
